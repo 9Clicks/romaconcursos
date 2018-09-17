@@ -37,10 +37,19 @@ elixir(function(mix) {
     mix.style([
         '../../../node_modules/lightbox2/dist/css/lightbox.css'
 
-    ], 'public/dist/lightbox/lightbox.css');
+    ], 'public/dist/lightbox/css/lightbox.css');
+
+    mix.copy('node_modules/lightbox2/dist/images', 'public/dist/lightbox/images');
 
     mix.scripts([
         '../../../node_modules/lightbox2/dist/js/lightbox.js'
 
-    ], 'public/dist/lightbox/lightbox.js');
+    ], 'public/dist/lightbox/js/lightbox.js');
+
+    mix.style([
+        '../../../resources/assets/icones/style.css'
+
+    ], 'public/dist/icones/app.css');
+
+    mix.copy('resources/assets/icones/fonts', 'public/dist/icones/fonts');
 });
