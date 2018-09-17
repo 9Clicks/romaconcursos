@@ -1,0 +1,33 @@
+//Terminal de Cores
+
+@mixin font_azul{
+  color: #10489a;
+}
+
+@mixin bg_azul{
+  background: #10489a;
+}
+
+@mixin font_amarelo{
+  color: #fdbf28;
+}
+
+@mixin bg_amarelo{
+  background: #fdbf28;
+}
+
+@mixin border_top_am{
+  border-top: solid 5px #fdbf28;
+}
+
+@mixin border_top_az{
+  border-top: solid 5px #10489a;
+}
+
+@mixin border_bt_am{
+  border-bottom: solid 5px #fdbf28;
+}
+
+@mixin border_bt_az{
+  border-bottom: solid 5px #10489a;
+}

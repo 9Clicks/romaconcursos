@@ -1,0 +1,53 @@
+// borda redonda 10 px
+
+@mixin borda_10{
+  border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;
+}
+
+// sombra em textos
+
+@mixin sombra_txt{
+  text-shadow: #000 2px 2px 3px;
+}
+
+@mixin sombra_txt2{
+  text-shadow: #000 4px 4px 6px;
+}
+
+@mixin sombra_txt3{
+  text-shadow: #000 4px 4px 6px;
+}
+
+@mixin sombra_video{
+  box-shadow: #000 0px 4px 10px 0px;;
+}
+
+@mixin sombra_txt_well{
+  text-shadow: #ffff00 2px 2px 3px;
+}
+
+// Borda Fina
+
+@mixin borda_fina{
+  border: thin solid mediumslateblue;
+}
+
+@mixin borda_amarela{
+  border: thin solid darkorange;
+}
+
+@mixin degrade{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.2), rgba(255,138,68,0), rgba(255,255,255,.2));
+}
+
+@mixin transition{
+  transition:all 0.3s linear; -webkit-transition:all 0.3s linear; -moz-transition:all 0.3s linear;
+}
+
+@mixin poiretOne{
+  font-family: 'Poiret One', cursive
+}
+
+@mixin lato{
+  font-family: 'Lato', sans-serif
+}
