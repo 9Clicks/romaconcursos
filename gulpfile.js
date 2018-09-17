@@ -33,4 +33,14 @@ elixir(function(mix) {
         '../../../node_modules/jquery/jquery.js'
 
     ], 'public/dist/js/jQuery.js');
+
+    mix.style([
+        '../../../node_modules/lightbox2/dist/css/lightbox.css'
+
+    ], 'public/dist/lightbox/lightbox.css');
+
+    mix.scripts([
+        '../../../node_modules/lightbox2/dist/js/lightbox.js'
+
+    ], 'public/dist/lightbox/lightbox.js');
 });
