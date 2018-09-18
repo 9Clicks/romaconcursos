@@ -2,8 +2,7 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass([
-        '../../../resources/assets/sass/style.sass',
-
+        '../../../resources/assets/sass/app.sass'
     ], 'public/dist/css/layout.css');
 
     mix.version('public/dist/css/layout.css');
@@ -14,8 +13,6 @@ elixir(function(mix) {
         '../../../node_modules/bootstrap/dist/css/bootstrap-reboot.css'
 
     ], 'public/dist/css/bootstrap.css');
-
-    mix.version('public/dist/css/bootstrap.css');
 
     mix.scripts([
         '../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js',

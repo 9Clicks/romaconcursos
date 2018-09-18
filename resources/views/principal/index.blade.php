@@ -1,7 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: noveclicks
- * Date: 17/09/2018
- * Time: 13:42
- */
+@extends('layouts.html')
+
+@section('content')
+
+    <h1>Principal</h1>
+
+@stop
