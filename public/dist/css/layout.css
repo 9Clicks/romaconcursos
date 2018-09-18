@@ -27,12 +27,13 @@
   text-align: right; }
 
 #nav-style {
-  background: #10489a; }
+  background: #10489a;
+  border-top: solid 5px #fdbf28; }
 
 #nav-menus li {
-  width: 160px;
-  font-size: 20px;
-  text-align: center;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-family: 'Quicksand', sans-serif; }
 
 #nav-menus li a {

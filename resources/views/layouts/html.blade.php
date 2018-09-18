@@ -32,7 +32,7 @@
     <meta name="document-classification" content="" />
 
     <link rel="stylesheet" href="{{ elixir('dist/css/layout.css') }}" type="text/css"/>
-    <link rel="stylesheet" href="{{ asset('dist/css/bootstrap-slim.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('dist/bootstrap/9clicks.css') }}" type="text/css"/>
     <link rel="stylesheet" href="{{ asset('dist/icones/app.css') }}" type="text/css"/>
     <link rel="stylesheet" href="{{ asset('dist/lightbox/css/lightbox.css') }}" type="text/css"/>
 
@@ -82,7 +82,8 @@
 
 </body>
 
-    <script type="text/javascript" src="{{ asset('dist/js/bootstraps.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('dist/js/poppers.js') }}"></script>
+<Script type="text/javascript" src="{{ asset('dist/bootstrap/9clicks.js') }}"></Script>
+<Script type="text/javascript" src="{{ asset('dist/bootstrap/bundle.js') }}"></Script>
+<Script type="text/javascript" src="{{ asset('dist/bootstrap/popper.js') }}"></Script>
 
 </html>

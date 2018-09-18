@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="559ccae8-5c2f-4d2a-ac57-7a81a2e23448" name="Default" comment="" />
+    <list default="true" id="559ccae8-5c2f-4d2a-ac57-7a81a2e23448" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/dist/css/layout-88d7bfbff5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/dist/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/dist/css/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/rev-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/rev-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/css/bootstrap-slim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/css/bootstrap-slim.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/bootstraps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/bootstraps.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/jQuery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/jQuery.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/poppers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/js/poppers.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/app.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/html.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/html.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/require/inc_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/require/inc_menu.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +47,8 @@
       <file leaf-file-name="PrincipalController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="483">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -50,20 +74,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="html.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="575">
+              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inc_menu.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inc_menu.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/require/inc_menu.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="874">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -72,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/require/inc_header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="94" lean-forward="true" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+              <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -80,8 +113,8 @@
       <file leaf-file-name="app.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="667">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,17 +141,17 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/resources/assets/sass/style.sass" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/principal/index.blade.php" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/html.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/modules/config.scss" />
         <option value="$PROJECT_DIR$/resources/assets/sass/modules/fonts.scss" />
-        <option value="$PROJECT_DIR$/resources/assets/sass/app.sass" />
         <option value="$PROJECT_DIR$/resources/views/require/inc_header.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/html.blade.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/resources/views/require/inc_menu.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/app.sass" />
       </list>
     </option>
   </component>
@@ -277,14 +310,7 @@
               <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
@@ -385,15 +411,16 @@
       <option name="presentableId" value="Default" />
       <updated>1537196084141</updated>
       <workItem from="1537196085650" duration="7309000" />
-      <workItem from="1537269756454" duration="13457000" />
+      <workItem from="1537269756454" duration="16563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20766000" />
+    <option name="totallyTimeSpent" value="23872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="46" width="2455" height="1366" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -401,9 +428,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32939324" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31993696" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31993696" />
       <window_info id="Gulp" order="2" sideWeight="0.5005875" side_tool="true" weight="0.24989639" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941245" visible="true" weight="0.12929963" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941245" visible="true" weight="0.12929963" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939324" />
@@ -514,16 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/build/rev-manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -538,24 +555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/modules/config.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/modules/color.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/modules/fonts.scss">
@@ -565,24 +565,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/require/inc_header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="94" lean-forward="true" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+          <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/require/inc_menu.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="874">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/modules/color.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
         </state>
       </provider>
     </entry>
