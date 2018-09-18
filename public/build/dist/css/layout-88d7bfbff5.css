@@ -6,37 +6,25 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Poppins:400,500,700|Raleway:400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700");
-#tp_index {
-  background: #10489a;
-  height: 15px; }
+@import url("https://fonts.googleapis.com/css?family=Abel|Quicksand");
+#tpl_body {
+  height: 15px;
+  background: #10489a; }
 
-#input-space {
-  margin-top: 10px; }
-
-#input-helper {
-  text-align: right;
-  font-family: 'Poiret One', cursive;
-  font-size: 18px;
-  font-weight: bold;
-  color: #999999;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding-right: 30px; }
-
-#input-helper a {
-  text-decoration: none;
-  color: #fdbf28; }
-
-#input-helper a:hover {
-  color: #10489a; }
-
-#social-icon {
+#tpl_icones a {
   font-size: 42px;
+  float: right;
   padding-right: 10px;
+  color: #10489a;
   text-decoration: none; }
 
-#social-icon:hover {
+#tpl_icones a:hover {
   color: #fdbf28; }
+
+#tpl_restrity {
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: right; }
 
 #nav-style {
   background: #10489a; }
@@ -45,15 +33,21 @@
   width: 160px;
   font-size: 20px;
   text-align: center;
-  font-family: 'Poiret One', cursive;
-  height: 60px;
-  line-height: 60px; }
+  font-family: 'Quicksand', sans-serif; }
 
 #nav-menus li a {
   color: #fdbf28; }
 
 #nav-menus li a:hover {
   color: aliceblue; }
+
+#dropdow-itens {
+  height: 50px;
+  line-height: 40px; }
+
+#dropdow-itens:hover {
+  background: #10489a;
+  color: #fdbf28; }
 
 .dropdown:hover > .dropdown-menu {
   display: block; }

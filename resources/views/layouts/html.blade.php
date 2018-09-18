@@ -32,7 +32,7 @@
     <meta name="document-classification" content="" />
 
     <link rel="stylesheet" href="{{ elixir('dist/css/layout.css') }}" type="text/css"/>
-    <link rel="stylesheet" href="{{ asset('dist/css/bootstrap.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ asset('dist/css/bootstrap-slim.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('dist/icones/app.css') }}" type="text/css"/>
     <link rel="stylesheet" href="{{ asset('dist/lightbox/css/lightbox.css') }}" type="text/css"/>
 
@@ -51,10 +51,38 @@
 
 <body>
 
+    <div class="container-fluid">
+
+        <div class="row mb-4">
+            <div class="col-xl-12" id="tpl_body">
+                Topo
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="row">
+                            @include('require.inc_header')
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        @include('require.inc_menu')
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     @yield('content')
 
 </body>
 
-    <script type="text/javascript" src="{{ asset('dist/js/bootstrap.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('dist/js/bootstraps.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('dist/js/poppers.js') }}"></script>
 
 </html>
