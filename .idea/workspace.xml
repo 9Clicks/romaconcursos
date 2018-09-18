@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559ccae8-5c2f-4d2a-ac57-7a81a2e23448" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/html.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/dist/css/layout.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/css/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/css/layout.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/app.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/principal/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/principal/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/app.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/html.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/html.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,25 +52,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="html.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+            <state relative-caret-position="184">
+              <caret line="8" column="107" lean-forward="true" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rev-manifest.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/build/rev-manifest.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="230">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -87,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/.env" />
@@ -96,6 +104,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/PrincipalController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/principal/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/sass/app.sass" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/html.blade.php" />
       </list>
@@ -199,8 +209,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="41" />
+    <option name="x" value="104" />
+    <option name="y" value="46" />
     <option name="width" value="2455" />
     <option name="height" value="1366" />
   </component>
@@ -243,28 +253,48 @@
             <path>
               <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
               <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
@@ -378,15 +408,15 @@
       <option name="presentableId" value="Default" />
       <updated>1537196084141</updated>
       <workItem from="1537196085650" duration="7309000" />
-      <workItem from="1537269756454" duration="1921000" />
+      <workItem from="1537269756454" duration="4505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9230000" />
+    <option name="totallyTimeSpent" value="11814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="41" width="2455" height="1366" extended-state="0" />
+    <frame x="104" y="46" width="2455" height="1366" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -465,13 +495,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/modules/fonts.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -480,13 +503,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/modules/color.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/principal/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,22 +531,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/build/rev-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="230">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+        <state relative-caret-position="184">
+          <caret line="8" column="107" lean-forward="true" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/build/rev-manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
