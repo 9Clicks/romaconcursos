@@ -51,6 +51,62 @@
 
 <body>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12" id="tp_index">
+                <!-- TOPO NULL -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="row">
+                    <div class="col-lg-12" style="margin-top: 20px; margin-bottom: 20px">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img src="{{ asset('images/css/logo_az.png') }}" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="row">
+                                    <div class="col-lg-12" style="background: orange">
+                                        <div class="row">
+                                            {!! Form::open(['url' => 'foo/bar']) !!}
+                                                <div class="col-lg-4 col-lg-offset-2" id="input-space">
+                                                    <input class="form-control input-lg input-block" type="email" placeholder="Usuário/E-mail">
+                                                </div>
+                                                <div class="col-lg-3" id="input-space">
+                                                    <input class="form-control input-lg input-block" type="password" placeholder="Senha">
+                                                </div>
+                                                <div class="col-lg-3" id="input-space">
+                                                    <button type="button" class="btn btn-info btn-lg btn-block">Login</button>
+                                                </div>
+                                            {!! Form::close() !!}
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12" id="input-helper">
+                                            Acesso Restrito, somente usuários cadastrados! Esqueceu sua Senha? <a href="#">Clique Aqui!</a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="pull-right">
+                                                <a href="" id="social-icon"><span class="icon-facebook2"></span></a>
+                                                <a href="" id="social-icon"><span class="icon-instagram"></span></a>
+                                                <a href="" id="social-icon"><span class="icon-twitter"></span></a>
+                                                <a href="" id="social-icon"><span class="icon-google-plus3"></span></a>
+                                                <a href="" id="social-icon"><span class="icon-youtube2"></span> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     @yield('content')
 
 </body>
