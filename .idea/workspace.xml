@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559ccae8-5c2f-4d2a-ac57-7a81a2e23448" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/build/dist/css/layout-a313be5120.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/build/dist/css/layout-0cf7c808a0.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/build/dist/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/dist/css/layout.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/build/rev-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/rev-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/dist/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/layout.css" afterDir="false" />
@@ -58,24 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="html.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="html.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="86" column="142" selection-start-line="86" selection-start-column="142" selection-end-line="86" selection-end-column="142" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="1016">
+              <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="1173">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -98,8 +94,8 @@
         <option value="$PROJECT_DIR$/resources/views/principal/index.blade.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/html.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/app.sass" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/html.blade.php" />
       </list>
     </option>
   </component>
@@ -366,12 +362,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537196084141</updated>
       <workItem from="1537196085650" duration="7309000" />
-      <workItem from="1537269756454" duration="7694000" />
+      <workItem from="1537269756454" duration="8529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15003000" />
+    <option name="totallyTimeSpent" value="15838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="46" width="2455" height="1366" extended-state="0" />
@@ -533,21 +529,17 @@
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/modules/color.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="86" column="142" selection-start-line="86" selection-start-column="142" selection-end-line="86" selection-end-column="142" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1173">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/app.sass">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="1016">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
         </state>
       </provider>
     </entry>

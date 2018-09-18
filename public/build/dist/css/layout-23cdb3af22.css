@@ -38,4 +38,24 @@
 #social-icon:hover {
   color: #fdbf28; }
 
+#nav-style {
+  background: #10489a; }
+
+#nav-menus li {
+  width: 160px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  height: 60px;
+  line-height: 60px; }
+
+#nav-menus li a {
+  color: #fdbf28; }
+
+#nav-menus li a:hover {
+  color: aliceblue; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
 /*# sourceMappingURL=layout.css.map */

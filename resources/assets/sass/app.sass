@@ -35,3 +35,24 @@
 
 #social-icon:hover
   @include font_amarelo
+
+#nav-style
+  @include bg_azul
+
+#nav-menus li
+  width: 160px
+  font-size: 20px
+  text-align: center
+  @include poiretOne
+  height: 60px
+  line-height: 60px
+
+#nav-menus li a
+  @include font_amarelo
+
+#nav-menus li a:hover
+  color: aliceblue
+
+// Drop Down Automatico
+.dropdown:hover>.dropdown-menu
+  display: block
