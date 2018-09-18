@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="559ccae8-5c2f-4d2a-ac57-7a81a2e23448" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/assets/sass/modules/config.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/require/inc_header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/require/inc_menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/dist/css/layout-23cdb3af22.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/dist/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/dist/css/layout.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/rev-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/rev-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/layout.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/icones/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/icones/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/icones/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/icones/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/icones/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/icones/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/icones/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/icones/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/icones/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/icones/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/icones/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/icones/fonts/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/icones/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/icones/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/icones/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/icones/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/icones/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/icones/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/icones/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/icones/fonts/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/icones/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/icones/selection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/icones/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/icones/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/sass/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/app.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/sass/modules/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/sass/modules/fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/html.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/html.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="559ccae8-5c2f-4d2a-ac57-7a81a2e23448" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +62,8 @@
       <file leaf-file-name="inc_menu.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/require/inc_menu.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+            <state relative-caret-position="644">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -417,16 +385,15 @@
       <option name="presentableId" value="Default" />
       <updated>1537196084141</updated>
       <workItem from="1537196085650" duration="7309000" />
-      <workItem from="1537269756454" duration="13089000" />
+      <workItem from="1537269756454" duration="13457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20398000" />
+    <option name="totallyTimeSpent" value="20766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="46" width="2455" height="1366" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -434,9 +401,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32939324" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31993696" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31993696" />
       <window_info id="Gulp" order="2" sideWeight="0.5005875" side_tool="true" weight="0.24989639" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941245" visible="true" weight="0.12929963" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49941245" visible="true" weight="0.12929963" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939324" />
@@ -614,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/require/inc_menu.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        <state relative-caret-position="644">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
