@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Catamaran|Indie+Flower|Yanone+Kaffeesatz");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Poiret+One|Poppins");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Poppins:400,500,700|Raleway:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Abel|Quicksand");
+#tpl_top {
+  background: #10489a;
+  height: 15px; }
+
+#tpl_icones a {
+  font-size: 42px;
+  float: right;
+  padding-right: 10px;
+  color: #10489a;
+  text-decoration: none; }
+
+#tpl_icones a:hover {
+  color: #fdbf28; }
+
+#tpl_restrity {
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: right; }
+
+#nav-style {
+  background: #10489a;
+  border-top: solid 5px #fdbf28; }
+
+#nav-menus li {
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Quicksand', sans-serif; }
+
+#nav-menus li a {
+  color: #fdbf28; }
+
+#nav-menus li a:hover {
+  color: aliceblue; }
+
+#dropdow-itens {
+  height: 50px;
+  line-height: 40px;
+  font-weight: bold; }
+
+#dropdow-itens:hover {
+  background: #10489a;
+  color: #fdbf28; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+#style-categoria {
+  font-family: 'Quicksand', sans-serif; }
+
+#card-title {
+  color: #ffffff;
+  background: #10489a; }
+
+#card-style h2 {
+  color: red; }
+
+#card-categoria {
+  background: #10489a;
+  text-decoration: none;
+  color: #cce5ff;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear; }
+
+#card-categoria:hover {
+  background: #fdbf28;
+  text-decoration: none;
+  color: black; }
+
+/*# sourceMappingURL=layout.css.map */

@@ -44,7 +44,8 @@
 
 #dropdow-itens {
   height: 50px;
-  line-height: 40px; }
+  line-height: 40px;
+  font-weight: bold; }
 
 #dropdow-itens:hover {
   background: #10489a;
@@ -52,5 +53,28 @@
 
 .dropdown:hover > .dropdown-menu {
   display: block; }
+
+#style-categoria {
+  font-family: 'Quicksand', sans-serif; }
+
+#card-title {
+  color: #ffffff;
+  background: #10489a; }
+
+#card-style h2 {
+  color: red; }
+
+#card-categoria {
+  background: #10489a;
+  text-decoration: none;
+  color: #cce5ff;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear; }
+
+#card-categoria:hover {
+  background: #fdbf28;
+  text-decoration: none;
+  color: black; }
 
 /*# sourceMappingURL=layout.css.map */

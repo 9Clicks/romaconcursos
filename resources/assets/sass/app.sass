@@ -42,6 +42,7 @@
 #dropdow-itens
   height: 50px
   line-height: 40px
+  font-weight: bold
 
 #dropdow-itens:hover
   @include bg_azul
@@ -50,3 +51,24 @@
 // Drop Down Automatico
 .dropdown:hover>.dropdown-menu
   display: block
+
+#style-categoria
+  @include quicksand
+
+#card-title
+  color: #ffffff
+  @include bg_azul
+
+#card-style h2
+  color: red
+
+#card-categoria
+  @include bg_azul
+  text-decoration: none
+  color: #cce5ff
+  @include transition
+
+#card-categoria:hover
+  @include bg_amarelo
+  text-decoration: none
+  color: black

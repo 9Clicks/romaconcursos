@@ -17,10 +17,10 @@
                     <span class="icon-trophy"></span>&nbsp; {{ $appNavs->tbl_menu_3 }}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+
+                    @foreach( $appCursos as $categ)
+                    <a class="dropdown-item" id="dropdow-itens" href="#"><span class="icon-ribbon"></span> &nbsp; {{ $categ->tbl_categoria }}</a>
+                    @endforeach
                 </div>
             </li>
             <li class="nav-item">
