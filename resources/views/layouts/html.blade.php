@@ -99,10 +99,12 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         @yield('content')
     </div>
-    <div class="container-fluid">
+
+    <div class="container-fluid" id="tpl_pre-footer">
         <div class="row">
             <div class="container">
                 <div class="row">
@@ -111,7 +113,7 @@
                             <div class="col-xl-4" id="logo-footer">
                                 <div class="row mt-5">
                                     <div class="col-xl-12">
-                                        <img src="{{ asset('assets/images/layout') }}/{{ $appDetalhes->tbl_image }}" class="img-fluid" alt="{{ $app__settings->tbl_title }}">
+                                        <img src="{{ asset('images/css') }}/{{ $appDetalhes->tbl_image }}" class="img-fluid" alt="">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -119,14 +121,14 @@
                                         <h2>{{ $appDetalhes->tbl_slogan }}</h2>
                                     </div>
                                 </div>
-                                <hr style="opacity: 0">
+                                <hr style="opacity: 0; margin-top: 10px; margin-bottom: 10px">
                                 <div class="row">
                                     <div class="col-xl-12" id="local-info">
-                                        <h5 class="mt-4"><i class="fa fa-map-marker" aria-hidden="true"></i> Onde Estamos: </h5>
-                                        <h5><small>{{ $appDetalhes->tbl_end }} - {{ $appDetalhes->tbl_bairro }} - {{ $appDetalhes->tbl_cid }}</small></h5>
-                                        <h5 class="mt-4"><i class="fa fa-phone" aria-hidden="true"></i> Telefones:</h5>
-                                        <h5><small>{{ $appDetalhes->tbl_ddd }}</small> <strong>{{ $appDetalhes->tbl_cel }}</strong> | <small>{{ $appDetalhes->tbl_ddd }}</small> <strong>{{ $appDetalhes->tbl_fixo }}</strong></h5>
-                                        <h5 class="mt-4"><i class="fa fa-envelope-o" aria-hidden="true"></i> E-mail:</h5>
+                                        <h5 class="mt-4"><span class="icon-location1"></span>&nbsp; Onde Estamos: </h5>
+                                        <h5 style="color: #cccccc"><small>{{ $appDetalhes->tbl_end }} - {{ $appDetalhes->tbl_bairro }}<br/>{{ $appDetalhes->tbl_cid }}</small></h5>
+                                        <h5 class="mt-4"><span class="icon-phone11"></span>&nbsp; Telefones:</h5>
+                                        <h5 style="color: #cccccc"><small>{{ $appDetalhes->tbl_ddd }}</small> <strong>{{ $appDetalhes->tbl_cel }}</strong> | <small>{{ $appDetalhes->tbl_ddd }}</small> <strong>{{ $appDetalhes->tbl_fixo }}</strong></h5>
+                                        <h5 class="mt-4"><span class="icon-paperplane"></span>&nbsp; E-mail:</h5>
                                         <h5 class="link-email mb-5"><a href="mailto:{{ $appDetalhes->tbl_email }}">{{ $appDetalhes->tbl_email }}</a></h5>
                                     </div>
                                 </div>
@@ -140,6 +142,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-xl-12">
+                Desenvolvido por <a href="https://www.9clicks.com.br" target="_blank">9 Clicks Developers</a> - Todos os Direitos reservados a Roma Concursos &copy; Copyright {{ date('Y') }}.
             </div>
         </div>
     </div>

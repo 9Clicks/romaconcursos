@@ -24,10 +24,4 @@
 
     @endforeach
 
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-
 </div>

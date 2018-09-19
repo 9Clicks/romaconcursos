@@ -12,7 +12,7 @@
             @include('require.inc_category')
         </div>
     </div>
-    <div class="row">
+    <div class="row mb-3">
         <div class="col-xl-12">
             @include('require.inc_cursos')
         </div>
