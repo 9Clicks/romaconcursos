@@ -1,33 +1,33 @@
 <!doctype html>
 
-<html lang="pt_BR">
+<html lang="{{ $appConfigs->tbl_language }}">
 
 <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> - Ipatinga/MG</title>
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/layout/favicon.png') }}" />
+    <title>{{ $appConfigs->tbl_title }} - Ipatinga/MG</title>
+    <link rel="icon" type="image/png" href="{{ asset('images/css/favicon.png') }}" />
 
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="Author" content="">
-    <meta name="language" content="" />
-    <meta name="URL" content="http://" />
-    <meta name="subject" content="" />
+    <meta name="keywords" content="{{ $appConfigs->tbl_keywords }}">
+    <meta name="description" content="{{ $appConfigs->tbl_descript }}">
+    <meta name="Author" content="{{ $appConfigs->tbl_author }}">
+    <meta name="language" content="{{ $appConfigs->tbl_language }}" />
+    <meta name="URL" content="http://{{ $appConfigs->tbl_url }}" />
+    <meta name="subject" content="{{ $appConfigs->tbl_subject }}" />
     <meta name="rating" content="general" />
     <meta name="updated" content="daily" />
     <meta name="robots" content="index, follow" />
     <meta name="audience" content="all" />
-    <meta name="Publisher" content="" />
+    <meta name="Publisher" content="{{ $appConfigs->tbl_publisher }}" />
     <meta name="ia_archiver" content="index, follow" />
     <meta name="googlebot" content="index, follow" />
     <meta name="msnbot" content="index, follow" />
-    <meta name="Search Engines" content="" />
+    <meta name="Search Engines" content="{{ $appConfigs->tbl_search }}" />
     <meta name="audience" content="all" />
     <meta name="revisit-after" content="1 days" />
-    <meta name="generator" content="">
+    <meta name="generator" content="{{ $appConfigs->tbl_generator }}">
     <meta name="document-classification" content="" />
 
     <link rel="stylesheet" href="{{ elixir('dist/css/layout.css') }}" type="text/css"/>
