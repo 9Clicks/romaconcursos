@@ -1,0 +1,1 @@
+<img src="{{ asset('images/css/logo_az.png') }}" class="img-fluid" alt="">

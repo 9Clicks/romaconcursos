@@ -6,13 +6,12 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> - Ipatinga/MG</title>
     <link rel="icon" type="image/png" href="{{ asset('assets/images/layout/favicon.png') }}" />
 
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Author" content="">
     <meta name="language" content="" />
     <meta name="URL" content="http://" />
@@ -32,7 +31,7 @@
     <meta name="document-classification" content="" />
 
     <link rel="stylesheet" href="{{ elixir('dist/css/layout.css') }}" type="text/css"/>
-    <link rel="stylesheet" href="{{ asset('dist/bootstrap/9clicks.css') }}" type="text/css"/>
+    <link rel="stylesheet" href="{{ asset('dist/css/compress.css') }}" type="text/css"/>
     <link rel="stylesheet" href="{{ asset('dist/icones/app.css') }}" type="text/css"/>
     <link rel="stylesheet" href="{{ asset('dist/lightbox/css/lightbox.css') }}" type="text/css"/>
 
@@ -51,39 +50,66 @@
 
 <body>
 
-    <div class="container-fluid">
-
-        <div class="row mb-4">
-            <div class="col-xl-12" id="tpl_body">
-                Topo
-            </div>
-        </div>
+    <div class="container-fluid" id="tpl_top">
         <div class="row">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="row">
-                            @include('require.inc_header')
-                        </div>
 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        @include('require.inc_menu')
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
+    <div class="container">
+        <div class="row mt-4 mb-2">
+            <div class="col-xl-12">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="row mt-3">
+                            <div class="col-xl-12">
+                                @include('require.inc_logo')
+                            </div>
+                        </div>
+                    </div>
 
-    @yield('content')
+                    <div class="col-xl-7 offset-xl-1">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                @include('require.inc_login')
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-xl-12" id="tpl_restrity">
+                                @include('require.inc_restrito')
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12" id="tpl_icones">
+                                @include('require.inc_social')
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+                @include('require.inc_menu')
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        @yield('content')
+    </div>
+    <div class="container-fluid">
+        PRE-FOOTER
+    </div>
 
 </body>
 
-<Script type="text/javascript" src="{{ asset('dist/bootstrap/9clicks.js') }}"></Script>
-<Script type="text/javascript" src="{{ asset('dist/bootstrap/bundle.js') }}"></Script>
-<Script type="text/javascript" src="{{ asset('dist/bootstrap/popper.js') }}"></Script>
+<Script type="text/javascript" src="{{ asset('dist/js/bootstrap.js') }}"></Script>
+<Script type="text/javascript" src="{{ asset('dist/js/bundle.js') }}"></Script>
+<Script type="text/javascript" src="{{ asset('dist/js/popper.js') }}"></Script>
 
 </html>

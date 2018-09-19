@@ -1,0 +1,1 @@
+<p class="text-muted"><span class="icon-lock1"></span> Acesso Restrito, somente Usuário cadastrados! <a href=""><span class="icon-key"></span> Esqueceu sua Senha? Recupe aqui!</a></p>

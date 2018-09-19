@@ -7,13 +7,10 @@ elixir(function(mix) {
 
     mix.version('public/dist/css/layout.css');
 
-    mix.styles([
-        '../../../node_modules/bootstrap/dist/css/bootstrap.css'
-    ], 'public/dist/bootstrap/9clicks.css')
+    mix.sass([
+        '../../../resources/assets/bootstrap/dist/scss/bootstrap.scss'
 
-    mix.scripts([
-        '../../../node_modules/popper.js/dist/popper.js'
-    ], 'public/dist/bootstrap/popper.js');
+    ], 'public/dist/css/compress.css');
 
     mix.scripts([
         '../../../node_modules/jquery/jquery.js'
@@ -21,12 +18,19 @@ elixir(function(mix) {
     ], 'public/dist/js/jQuery.js');
 
     mix.scripts([
-        '../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
-    ], 'public/dist/bootstrap/bundle.js');
+        '../../../resources/assets/bootstrap/dist/js/bootstrap.bundle.js'
+
+    ], 'public/dist/js/bundle.js');
 
     mix.scripts([
-        '../../../node_modules/bootstrap/dist/js/bootstrap.js'
-    ], 'public/dist/bootstrap/9clicks.js');
+        '../../../resources/assets/bootstrap/dist/js/bootstrap.js'
+
+    ], 'public/dist/js/bootstrap.js');
+
+    mix.scripts([
+        '../../../node_modules/popper.js/dist/popper.js'
+
+    ], 'public/dist/js/popper.js');
 
     mix.styles([
         '../../../node_modules/lightbox2/dist/css/lightbox.css'
