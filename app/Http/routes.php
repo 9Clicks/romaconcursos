@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', 'PrincipalController@index');
-Route::get('/quemsomos', 'EmpresaController@index');
+Route::get('/quem-somos', 'EmpresaController@index');
 Route::get('/equipe', 'EquipeController@index');
 Route::get('/blog', 'BlogController@index');
 Route::get('/contatos', 'ContatoController@index');

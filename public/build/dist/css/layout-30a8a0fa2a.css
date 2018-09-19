@@ -111,4 +111,14 @@
 #local-info {
   color: #f8f9fa; }
 
+#tpl_title_pg {
+  border-bottom: solid 5px #10489a;
+  color: #10489a;
+  font-family: 'Quicksand', sans-serif; }
+
+#tpl_title_empresa {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #5a6268; }
+
 /*# sourceMappingURL=layout.css.map */

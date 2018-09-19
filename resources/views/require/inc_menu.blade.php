@@ -7,10 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto"  id="nav-menus">
             <li class="nav-item active">
-                <a class="nav-link" href="#"><span class="icon-browser"></span>&nbsp; {{ $appNavs->tbl_menu_1 }} <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{ url('/') }}"><span class="icon-browser"></span>&nbsp; {{ $appNavs->tbl_menu_1 }} <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="icon-briefcase1"></span>&nbsp; {{ $appNavs->tbl_menu_2 }}</a>
+                <a class="nav-link" href="{{ url('/quem-somos') }}"><span class="icon-briefcase1"></span>&nbsp; {{ $appNavs->tbl_menu_2 }}</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
