@@ -46,7 +46,7 @@
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card-body" id="card-desc">
-                                    <h3 style="color: #999999"><small>* Duração total de</small> <span style="color: #333333"><strong>({{ $infoDetalhes->tbl_tempo }})</strong></span> <small>Meses.</small></h3>
+                                    <h2 style="color: #999999"><small>* Duração total de</small> <span class="icon-{{ $infoDetalhes->tbl_tempo }}"></span> <small>Meses.</small></h2>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,6 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text"><span class="badge badge-pill badge-danger">{{ $infoDetalhes->tbl_categoria }}</span></p>
-                                    <h5 class="card-title">Duração : <span class="badge badge-secondary">{{ $infoDetalhes->tbl_tempo }}</span> <small>(meses)</small></h5>
                                     <h1><small>R$</small> <strong>{{ $infoDetalhes->tbl_preco }}</strong></h1>
                                     <p class="text-muted">
                                         {{ $infoDetalhes->tbl_desc }}
