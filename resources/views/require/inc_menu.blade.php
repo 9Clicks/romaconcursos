@@ -27,10 +27,10 @@
                 <a class="nav-link" href="{{ url('/equipe') }}"><span class="icon-wallet2"></span>&nbsp; {{ $appNavs->tbl_menu_4 }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="icon-newspaper1"></span>&nbsp; {{ $appNavs->tbl_menu_5 }}</a>
+                <a class="nav-link" href="{{ url('/blog') }}"><span class="icon-newspaper1"></span>&nbsp; {{ $appNavs->tbl_menu_5 }}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="icon-chat3"></span>&nbsp; {{ $appNavs->tbl_menu_6 }}</a>
+                <a class="nav-link" href="{{ url('/contatos') }}"><span class="icon-chat3"></span>&nbsp; {{ $appNavs->tbl_menu_6 }}</a>
             </li>
         </ul>
     </div>
