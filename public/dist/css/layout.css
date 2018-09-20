@@ -121,4 +121,41 @@
   font-weight: bold;
   color: #5a6268; }
 
+#tpl_title_curso {
+  font-family: 'Quicksand', sans-serif;
+  border-bottom: solid 5px #10489a; }
+
+#card-button {
+  color: #10489a;
+  text-decoration: none;
+  height: 60px; }
+
+#card-button:hover {
+  color: #fdbf28;
+  cursor: pointer; }
+
+#card-desc {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #999999;
+  text-align: justify; }
+
+#card-compra {
+  background: #10489a;
+  color: #f8f9fa;
+  height: 85px;
+  line-height: 65px;
+  font-size: 26px; }
+
+#card-link {
+  background: #fdbf28;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px; }
+
+#card-link a {
+  color: #000000;
+  text-decoration: none; }
+
 /*# sourceMappingURL=layout.css.map */

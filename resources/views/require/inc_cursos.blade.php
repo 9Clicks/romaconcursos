@@ -7,7 +7,7 @@
                 <div class="card-header" id="card-title">
                     <strong>{{ $curso->tbl_titulo }}</strong>
                 </div>
-                <img class="card-img-top" src="{{  asset('assets/images/cursos') }}/{{ $curso->tbl_img }}" classe="img-fluid" alt="">
+                <img class="card-img-top" src="{{  asset('images/cursos') }}/{{ $curso->tbl_img }}" classe="img-fluid" alt="">
                 <div class="card-body" id="card-style">
 
                     <p class="card-text" style="height: 85px">{{ $curso->tbl_desc }}</p>
