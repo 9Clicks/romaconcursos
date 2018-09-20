@@ -19,7 +19,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                     @foreach( $appCursos as $categ)
-                    <a class="dropdown-item" id="dropdow-itens" href="#"><span class="icon-ribbon"></span> &nbsp; {{ $categ->tbl_categoria }}</a>
+                    <a class="dropdown-item" id="dropdow-itens" href="{{ url('/preparatorio') }}/{{ $categ->tbl_slug }}/detalhes/{{ $categ->id }}"><span class="icon-ribbon"></span> &nbsp; {{ $categ->tbl_categoria }}</a>
                     @endforeach
                 </div>
             </li>

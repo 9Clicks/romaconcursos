@@ -19,7 +19,7 @@
     <div class="row mb-5">
         <div class="col-xl-12">
             <div class="row">
-                <div class="col-xl-8">
+                <div class="col-xl-8 mb-5">
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">

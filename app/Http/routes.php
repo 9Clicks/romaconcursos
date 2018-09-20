@@ -24,7 +24,8 @@ Route::get('/preparatorio/oab/detalhes/{id}', '_preOABController@detalhes');
 Route::get('/preparatorio/policia-civil', '_prePCController@index');
 Route::get('/preparatorio/policia-civil/detalhes/{id}', '_prePCController@detalhes');
 
-
+Route::get('/preparatorio/prf', '_prePRFController@index');
+Route::get('/preparatorio/prf/detalhes/{id}', '_prePRFController@detalhes');
 
 Route::auth();
 
