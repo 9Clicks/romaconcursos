@@ -33,6 +33,8 @@
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body" id="card-desc">
                                     <?php echo nl2br("$infoDetalhes->tbl_info") ?>
+                                        <hr>
+                                    <?php echo nl2br("$infoDetalhes->tbl_outros") ?>
                                 </div>
                             </div>
                         </div>
