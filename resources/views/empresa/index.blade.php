@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="col-xl-12 mt-4" id="tpl_title_pg">
-        <h1><span class="icon-wallet"></span> &nbsp; Quem Somos:</h1>
+        <h1><span class="icon-wallet"></span> Quem Somos:</h1>
     </div>
     <div class="col-xl-12 mt-5">
         <div class="row">
