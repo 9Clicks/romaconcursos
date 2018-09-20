@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559ccae8-5c2f-4d2a-ac57-7a81a2e23448" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/prf/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/preparatorio/detalhes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/preparatorio/detalhes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/require/inc_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/require/inc_menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/equipe/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="736">
@@ -65,6 +61,27 @@
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EquipeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EquipeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/equipe/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -121,6 +138,8 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/require/inc_menu.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/preparatorio/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EquipeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/equipe/index.blade.php" />
       </list>
     </option>
   </component>
@@ -344,67 +363,6 @@
               <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="empresa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="preparatorio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="preparatorio" type="462c0819:PsiDirectoryNode" />
-              <item name="agentepenitenciario" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="preparatorio" type="462c0819:PsiDirectoryNode" />
-              <item name="bombeiromilitar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="preparatorio" type="462c0819:PsiDirectoryNode" />
-              <item name="enem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="preparatorio" type="462c0819:PsiDirectoryNode" />
-              <item name="inss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="preparatorio" type="462c0819:PsiDirectoryNode" />
-              <item name="oab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel.romaconcursos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel.romaconcursos" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="require" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -462,12 +420,12 @@
       <workItem from="1537196085650" duration="7309000" />
       <workItem from="1537269756454" duration="19996000" />
       <workItem from="1537357114762" duration="19820000" />
-      <workItem from="1537444751072" duration="5739000" />
+      <workItem from="1537444751072" duration="6011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52864000" />
+    <option name="totallyTimeSpent" value="53136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="105" y="43" width="2455" height="1366" extended-state="0" />
@@ -531,16 +489,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/build/rev-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/sass/modules/config.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/dist/css/bootstrap.mim.css.map" />
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-grid.scss">
       <provider selected="true" editor-type-id="text-editor" />
@@ -828,16 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EmpresaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/html.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2323">
@@ -856,6 +794,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EmpresaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EquipeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/equipe/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
