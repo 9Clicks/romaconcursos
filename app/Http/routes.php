@@ -18,21 +18,22 @@ Route::get('/preparatorio/enem/detalhes/{id}', '_preENEMController@detalhes');
 Route::get('/preparatorio/inss', '_preINSSController@index');
 Route::get('/preparatorio/inss/detalhes/{id}', '_preINSSController@detalhes');
 
-
+Route::get('/preparatorio/oab', '_preOABController@index');
+Route::get('/preparatorio/oab/detalhes/{id}', '_preOABController@detalhes');
 
 
 
 Route::get('/preparatorio/policia-civil', 'PrePoliciaCController@index');
 
 Route::get('/preparatorio/prf', 'PrePRFController@index');
-Route::get('/preparatorio/oab', 'PreOABController@index');
+
 
 
 
 
 Route::get('/preparatorio/policia-civil/detalhes/{id}', 'PrePoliciaCController@detalhes');
 
-Route::get('/preparatorio/oab/detalhes/{id}', 'PreOABController@detalhes');
+
 Route::get('/preparatorio/prf/detalhes/{id}', 'PrePRFController@detalhes');
 
 Route::auth();
