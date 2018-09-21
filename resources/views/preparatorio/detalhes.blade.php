@@ -77,13 +77,15 @@
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text"><span class="badge badge-pill badge-danger">{{ $infoDetalhes->tbl_categoria }}</span></p>
-                                    <h1><small>R$</small> <strong>{{ $infoDetalhes->tbl_preco }}</strong></h1>
+                                    <hr>
+                                    <span class="icon-price-tags" style="font-size: 48px"></span>
+                                    <hr>
                                     <p class="text-muted">
                                         {{ $infoDetalhes->tbl_desc }}
                                     </p>
                                 </div>
                                 <div class="card-footer text-muted" id="card-link">
-                                    <a href="#" data-toggle="pagueseguro" data-placement="bottom" title="Pagamento Pag Seguro"><span class="icon-happy"></span> Mais informações para aquisição!</a>
+                                    <a href="#" data-toggle="pre-cadastro" data-placement="bottom" title="Faça já seu pré-cadastro para adquirir o curso!"><span class="icon-happy"></span> Aquisição & Pré-Cadastro</a>
                                 </div>
                             </div>
                         </div>
@@ -92,5 +94,11 @@
             </div>
         </div>
     </div>
+
+    <script>
+        $(function () {
+            $('[data-toggle="pre-cadastro"]').tooltip()
+        })
+    </script>
 
 @stop
