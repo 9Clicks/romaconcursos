@@ -2,7 +2,7 @@
 
 Route::get('/', 'PrincipalController@index');
 Route::get('/quem-somos', 'EmpresaController@index');
-Route::get('/equipe', 'EquipeController@index');
+Route::get('/videos', 'EquipeController@index');
 Route::get('/blog', 'BlogController@index');
 Route::get('/contatos', 'ContatoController@index');
 Route::get('/pre-inscricao', 'CadastroController@index');

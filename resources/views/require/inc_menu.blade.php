@@ -24,7 +24,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('/equipe') }}"><span class="icon-wallet2"></span>&nbsp; {{ $appNavs->tbl_menu_4 }}</a>
+                <a class="nav-link" href="{{ url('/videos') }}"><span class="icon-wallet2"></span>&nbsp; {{ $appNavs->tbl_menu_4 }}</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('/blog') }}"><span class="icon-newspaper1"></span>&nbsp; {{ $appNavs->tbl_menu_5 }}</a>
