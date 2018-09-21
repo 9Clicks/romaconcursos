@@ -12,7 +12,7 @@
 
                     <p class="card-text" style="height: 85px">{{ $curso->tbl_desc }}</p>
                     <hr>
-                    <h2><small>R$</small> <strong>{{ $curso->tbl_preco }}</strong></h2>
+                    <h5><small>Duração</small> <span class="icon-{{ $curso->tbl_tempo }}"></span> <small>meses</small></h5>
 
                 </div>
                 <div class="card-footer">
