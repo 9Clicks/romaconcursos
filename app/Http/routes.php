@@ -5,6 +5,7 @@ Route::get('/quem-somos', 'EmpresaController@index');
 Route::get('/equipe', 'EquipeController@index');
 Route::get('/blog', 'BlogController@index');
 Route::get('/contatos', 'ContatoController@index');
+Route::get('/pre-inscricao', 'CadastroController@index');
 
 Route::get('/preparatorio/agente-penitenciario', '_preAgenteController@index');
 Route::get('/preparatorio/agente-penitenciario/detalhes/{id}', '_preAgenteController@detalhes');
