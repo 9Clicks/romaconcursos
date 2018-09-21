@@ -159,4 +159,7 @@
 <Script type="text/javascript" src="{{ asset('dist/js/bundle.js') }}"></Script>
 <Script type="text/javascript" src="{{ asset('dist/js/popper.js') }}"></Script>
 
+<!-- Modais -->
+@include('require.inc_pre-cadastro')
+
 </html>
