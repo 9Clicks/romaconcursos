@@ -46,6 +46,8 @@
     <meta property="fb:app_id" content="">
     <meta property="og:description" content="">
 
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 
 <body>

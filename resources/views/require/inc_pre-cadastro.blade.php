@@ -7,7 +7,7 @@
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel"><span class="icon-pencil1"></span> Preencha os dados abaixo para seu pré-cadastro:</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span class="icon-cancel"></span>
                 </button>
             </div>
             <div class="modal-body">
@@ -48,10 +48,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="g-recaptcha" data-sitekey="6Le9hHEUAAAAABxko5as4DFQUJRheXn2FCZ4aUJr"></div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-primary">Enviar seu Pré-cadastro</button>
+                <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-lg btn-success">Enviar seu Pré-cadastro</button>
             </div>
 
             </form>
