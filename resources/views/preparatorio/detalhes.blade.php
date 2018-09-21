@@ -85,7 +85,7 @@
                                     </p>
                                 </div>
                                 <div class="card-footer text-muted" id="card-link">
-                                    <a href="#" data-toggle="pre-cadastro" data-placement="bottom" title="Faça já seu pré-cadastro para adquirir o curso!"><span class="icon-link11"></span> Aquisição & Pré-Cadastro</a>
+                                    <a href="#" data-toggle="pre-cadastro" data-placement="bottom" title="Faça já seu pré-cadastro para adquirir o curso!"><span class="icon-link11"></span> <strong>Aquisição & Pré-Cadastro</strong></a>
                                 </div>
                             </div>
                         </div>
