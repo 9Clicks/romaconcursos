@@ -29,6 +29,7 @@
             </div>
         </div>
     </div>
+    <hr>
     <div class="col-xl-12">
         <div class="row mb-5" id="img-galeria">
             @include('require.inc_galeria')
