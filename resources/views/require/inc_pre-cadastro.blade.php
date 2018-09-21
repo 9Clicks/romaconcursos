@@ -48,6 +48,7 @@
                         </div>
                     </div>
                 </div>
+                <hr style="opacity: 0">
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="g-recaptcha" data-sitekey="6Le9hHEUAAAAABxko5as4DFQUJRheXn2FCZ4aUJr"></div>
@@ -56,7 +57,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-lg btn-success">Enviar seu Pré-cadastro</button>
+                <button type="button" class="btn btn-lg btn-success"><span class="icon-paperplane"></span> Enviar seu Pré-cadastro</button>
             </div>
 
             </form>
