@@ -12,13 +12,13 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <input type="text" name="inc_nome" class="form-control form-control-lg" id="validationCustom01" required aria-describedby="nomeHelp" placeholder="Seu Nome Completo">
+                    <input type="text" name="inc_nome" class="form-control form-control-lg" id="validationCustom01" required aria-describedby="nomeHelp" placeholder="Nome Completo">
                     <div class="invalid-feedback">
                         Nome completo (obrigatório)..
                     </div>
                 </div>
                 <div class="form-group">
-                    <input type="email" name="inc_email" class="form-control form-control-lg" id="validationCustom02" required aria-describedby="emailHelp" placeholder="Seu E-mail Correto">
+                    <input type="email" name="inc_email" class="form-control form-control-lg" id="validationCustom02" required aria-describedby="emailHelp" placeholder="E-mail Correto">
                     <div class="invalid-feedback">
                         E-mail (obrigatório).
                     </div>
@@ -28,7 +28,7 @@
                         <div class="row">
                             <div class="col-xl-6">
                                 <div class="form-group">
-                                    <input type="text" name="inc_telefone" class="form-control form-control-lg" id="validationCustom02" required aria-describedby="emailHelp" placeholder="Seu E-mail Correto">
+                                    <input type="text" name="inc_telefone" class="form-control form-control-lg" id="validationCustom02" required aria-describedby="emailHelp" placeholder="Informe seu Whatsapp">
                                     <div class="invalid-feedback">
                                         Telefone/Whatsapp (obrigatório).
                                     </div>
