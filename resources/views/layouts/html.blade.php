@@ -37,6 +37,8 @@
 
     <script type="text/javascript" src="{{ asset('dist/js/jQuery.js') }}"></script>
     <script type="text/javascript" src="{{ asset('dist/lightbox/js/lightbox.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('dist/js/jMask.input.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('dist/js/jQuery.Validate.js') }}"></script>
 
     <meta property="og:title" content="">
     <meta property="og:type" content="article">

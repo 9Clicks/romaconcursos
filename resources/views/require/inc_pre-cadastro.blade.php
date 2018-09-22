@@ -28,7 +28,7 @@
                         <div class="row">
                             <div class="col-xl-6">
                                 <div class="form-group">
-                                    <input type="text" name="inc_telefone" class="form-control form-control-lg" id="validationCustom02" required aria-describedby="emailHelp" placeholder="Informe seu Whatsapp">
+                                    <input type="text" name="inc_telefone" class="form-control form-control-lg whatsapp" id="validationCustom02" required aria-describedby="emailHelp" placeholder="Informe seu Whatsapp">
                                     <div class="invalid-feedback">
                                         Telefone/Whatsapp (obrigatório).
                                     </div>
@@ -61,6 +61,15 @@
             </div>
 
             </form>
+
+            <script type="text/javascript">
+
+                //Mascará Input Form Validate
+
+                $(function(){
+                    $(".whatsapp").mask("+55 (99) 9 9999 - 9999");
+                });
+            </script>
 
         </div>
     </div>
