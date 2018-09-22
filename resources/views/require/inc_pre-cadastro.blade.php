@@ -2,7 +2,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
 
-            <form class="was-validated" action="" method="post">
+            <form class="was-validated" action="{{ url('send/return.php') }}" method="post">
 
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel"><span class="icon-pencil1"></span> Preencha os dados abaixo para seu pré-cadastro:</h5>
@@ -36,7 +36,7 @@
                             </div>
                             <div class="col-xl-6">
                                 <div class="form-group">
-                                    <select class="form-control form-control-lg" name="inc_ass" id="formControlSelect1" required>
+                                    <select class="form-control form-control-lg" name="inc_curso" id="formControlSelect1" required>
                                         <option value="" selected>Cursos disponiveis</option>
                                         @foreach($appCursos as $detalhes)
                                         <option value="{{ $detalhes->tbl_titulo }}">{{ $detalhes->tbl_titulo }}</option>
@@ -57,7 +57,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Fechar</button>
-                <button type="button" class="btn btn-lg btn-success"><span class="icon-paperplane"></span> Enviar seu Pré-cadastro</button>
+                <button type="submit" class="btn btn-lg btn-success"><span class="icon-paperplane"></span> Realizar a pré-inscrição</button>
             </div>
 
             </form>

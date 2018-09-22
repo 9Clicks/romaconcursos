@@ -29,7 +29,7 @@ $tempo             = date("d/m/Y - H:i:s");
 $mensagemHTML =
     '
 <p>
-<img src="https://romaconcursos.com.br/images/logo_az.png" width="400" /><br>
+<img src="https://romaconcursos.com.br/images/css/logo_az.png" width="400" /><br>
 <br>
 <br>
 <span style="color: #9A9A9A; font-family: Segoe, Verdana, sans-serif; font-size: 15px;">PRÉ-INSCRIÇÃO</span></br><br>
@@ -56,8 +56,8 @@ $mensagemHTML =
 <span style="color: #9A9A9A; font-family: Segoe, Verdana, sans-serif; font-size: 12px;"><b>'.$tempo.'</b></span></br>
 <br>
 <br>
-<span style="color: #9A9A9A; font-family: Segoe, Verdana, sans-serif; font-size: 12px;">9 Clicks developers Tecnologia em Desenvolvimento e Hospedagem para Sites.</span><br>
-<span style="color: #A6D2FF; font-family: Verdana; font-size: 12px;">Suporte:<b> contato@9clicks.com.br | www.9clicks.com.br</b> - Ipatinga/MG.</span>
+<span style="color: #9A9A9A; font-family: Segoe, Verdana, sans-serif; font-size: 9px;">9 Clicks developers Tecnologia em Desenvolvimento e Hospedagem para Sites.</span><br>
+<span style="color: #A6D2FF; font-family: Verdana; font-size: 9px;">Suporte:<b> contato@9clicks.com.br | www.9clicks.com.br</b> - Ipatinga/MG.</span>
 </p>
 
 ';
