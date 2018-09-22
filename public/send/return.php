@@ -62,13 +62,13 @@ $mensagemHTML =
 
 ';
 
-$emaildestinatario = 'contato@9clicks.com.br';
+$emaildestinatario = 'contato@romaconcursos.com.br';
 
 $headers = "MIME-Version: 1.1\r\n";
 $headers .= "Content-type: text/html; charset=utf-8\r\n";
 $headers .= "From: $inc_email\r\n"; // remetente
 $headers .= "Bcc: $inc_email\r\n";
-$headers .= "Cc: alexandrofsmartins@gmail.com\r\n";
+$headers .= "Cc: rodrigomanhaes91@hotmail.com\r\n";
 $headers .= "Return-Path: $emaildestinatario \r\n"; // return-path
 $resposta = mail($emaildestinatario, $titleemail, $mensagemHTML, $headers);
 

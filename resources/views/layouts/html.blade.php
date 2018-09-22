@@ -131,7 +131,7 @@
                                         <h5 class="mt-4"><span class="icon-location1"></span>&nbsp; Onde Estamos: </h5>
                                         <h5 style="color: #cccccc"><small>{{ $appDetalhes->tbl_end }} - {{ $appDetalhes->tbl_bairro }}<br/>{{ $appDetalhes->tbl_cid }}</small></h5>
                                         <h5 class="mt-4"><span class="icon-phone11"></span>&nbsp; Telefones:</h5>
-                                        <h5 style="color: #cccccc"><small>{{ $appDetalhes->tbl_ddd }}</small> <strong>{{ $appDetalhes->tbl_cel }}</strong> | <small>{{ $appDetalhes->tbl_ddd }}</small> <strong>{{ $appDetalhes->tbl_fixo }}</strong></h5>
+                                        <h5 style="color: #cccccc"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=553195008584" target="_blank"><span class="icon-whatsapp"></span> <small>{{ $appDetalhes->tbl_ddd }}</small> <strong>{{ $appDetalhes->tbl_cel }}</strong></a></h5>
                                         <h5 class="mt-4"><span class="icon-paperplane"></span>&nbsp; E-mail:</h5>
                                         <h5 class="link-email mb-5"><a href="mailto:{{ $appDetalhes->tbl_email }}">{{ $appDetalhes->tbl_email }}</a></h5>
                                     </div>
